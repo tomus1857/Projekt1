@@ -3,7 +3,7 @@ import java.net.*;
 import java.util.*;
 
 public class Serwer {
-    private static final int PORT = 2000;
+    private static final int PORT = 4000;
     private static List<ClientHandler> clients = new ArrayList<>(); 
     public static void main(String[] args) {
         try (ServerSocket serverSocket = new ServerSocket(PORT)) {
